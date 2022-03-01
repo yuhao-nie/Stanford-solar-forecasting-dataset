@@ -4,6 +4,6 @@ This repo describes the solar forecasting dataset collected at Stanford Universi
 
 ### Dataset description
 
-### Demo of use case
+### Demonstration of use cases
 
 ### Request of access
