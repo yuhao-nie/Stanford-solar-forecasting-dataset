@@ -1,2 +1,2 @@
 # Stanford Solar Forecasting Dataset
-This repo describe the solar forecasting dataset collected at Stanford
+This repo describes the solar forecasting dataset collected at Stanford
