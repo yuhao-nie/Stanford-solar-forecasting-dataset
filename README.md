@@ -26,14 +26,14 @@ This dataset is a collection of sky images and PV power output for solar forecas
 
 The sky images are frames from a video recorded by a ground-based 6-megapixel 360-degree fish-eye camera (Hikvision model DS-2CD6362F-IV) installed on the roof of the Green Earth Sciences Building (GESB) at Stanford University. Camera aperture, white balance and dynamic range are held constant. [Fig.1] gives examples of sky images in different weather conditions, and shows the camera and PV panels used in this study. 
 
-![image]()
+![image](https://ars.els-cdn.com/content/image/1-s2.0-S0038092X19306164-gr1.jpg)
 
 Videos are captured in a resolution of 1536 × 1536 pixels at 20 frames per second (fps). It is compressed with the h.264 standard to a bit rate of 2 Mbps. Images (.jpg) are extracted at a chosen sampling frequency, and down-sampled to a resolution of 64 × 64 pixels, which was previously shown to be acceptable for PV output forecast, while retaining a reasonable training time. Images are retained between the hours of 6:00 AM and 8:00 PM local time (PST).
 
 #### PV Output 
 [should we include the Y2E2 solar PV arrays as well?]
 
-The PV output data are collected from solar panel arrays ∼125 m away from the camera, on the top of the Jen-Hsun Huang Engineering Center at Stanford University. The poly-crystalline panels are rated at 30.1 kW-DC, with an elevation and azimuth angle at 22.5° and 195° respectively.![image]
+The PV output data are collected from solar panel arrays ∼125 m away from the camera, on the top of the Jen-Hsun Huang Engineering Center at Stanford University. The poly-crystalline panels are rated at 30.1 kW-DC, with an elevation and azimuth angle at 22.5° and 195° respectively.
 
 
 ### Demonstration of use cases
