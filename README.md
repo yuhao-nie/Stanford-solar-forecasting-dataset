@@ -48,7 +48,7 @@ The PV output data are collected from solar panel arrays ∼125 m away from the 
 
 #### Solar nowcast
 
-![nowcast sunny](https://user-images.githubusercontent.com/29718809/163328183-3c5cb727-caba-475e-9caa-286cd3f6e44f.mp4)
+![nowcast sunny](https://user-images.githubusercontent.com/29718809/163437731-7ac40f4e-5e73-4f95-9709-bb25fb72a269.mp4)
 
 ![nowcast cloudy](https://user-images.githubusercontent.com/29718809/163323690-d96ce8b2-c85e-4795-9257-beb53f71628f.mp4)
 
