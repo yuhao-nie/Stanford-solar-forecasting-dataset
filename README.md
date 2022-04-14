@@ -4,7 +4,7 @@ This repo describes the solar forecasting dataset collected at Stanford Universi
 
 ## Dataset Description
 
-![skycamgif](https://user-images.githubusercontent.com/29718809/163320721-f3dd464d-d346-48b6-8bdd-d3d3eb3cb5f6.mp4)
+![skycamgif]()
 
 This dataset is a collection of sky images and PV power output for solar forecasting from Stanford University. The data consist of three years (2017–2019) of quality-controlled, 1-min [not sure?] resolution in sky images taken from a ground-based fish-eye camera and power output measurement from a 30 kW rooftop PV array ~125 m away from the camera at Stanford Campus. We hope that the dataset will enable researchers to tackle the problem of short-term local ground camera-based solar power prediction. [We also include models?]
 
@@ -46,7 +46,17 @@ The PV output data are collected from solar panel arrays ∼125 m away from the 
 
 ### Demonstration of use cases
 
+#### Solar nowcast
 
+![nowcast sunny](https://user-images.githubusercontent.com/29718809/163323574-b68a1f3c-0594-495b-b39f-0514c1581b2e.mp4)
+
+![nowcast cloudy](https://user-images.githubusercontent.com/29718809/163323690-d96ce8b2-c85e-4795-9257-beb53f71628f.mp4)
+
+#### Solar forecast
+
+![forecast sunny](https://user-images.githubusercontent.com/29718809/163323783-1d2e262b-5992-44b9-84dd-9ecdb101f3f4.mp4)
+
+![forecast cloudy](https://user-images.githubusercontent.com/29718809/163323922-2f2767dd-7296-4cc6-a346-e7191c86ae93.mp4)
 
 
 ### Request of access
