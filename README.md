@@ -49,15 +49,26 @@ The PV output data are collected from solar panel arrays ∼125 m away from the 
 #### Solar nowcast
 
 ![nowcast sunny](https://user-images.githubusercontent.com/29718809/163437731-7ac40f4e-5e73-4f95-9709-bb25fb72a269.mp4)
+<p align=center>
+Fig. Nowcast Sunny
+</p>
 
 ![nowcast cloudy](https://user-images.githubusercontent.com/29718809/163323690-d96ce8b2-c85e-4795-9257-beb53f71628f.mp4)
+<p align=center>
+Fig. Nowcast Sunny
+</p>
 
 #### Solar forecast
 
 ![forecast sunny](https://user-images.githubusercontent.com/29718809/163323783-1d2e262b-5992-44b9-84dd-9ecdb101f3f4.mp4)
+<p align=center>
+Fig. Forecast Sunny
+</p>
 
-![forecast cloudy](https://user-images.githubusercontent.com/29718809/163323922-2f2767dd-7296-4cc6-a346-e7191c86ae93.mp4)
-
+![forecast cloudy](https://github.com/yuhao-nie/Stanford-solar-forecasting-dataset/blob/main/sample%20images/sunset_forecast_cloudy_days.gif)
+<p align=center>
+Fig. Forecast Cloudy
+</p>
 
 ### Request of access
 
