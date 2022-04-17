@@ -12,8 +12,6 @@
 ![cloudygif](/sample%20images/cloudy_day_demo_5.gif)
 ![sunnygif](/sample%20images/sunny_day_demo_6.gif)
 ![cloudygif](/sample%20images/cloudy_day_demo_6.gif)
-![sunnygif](/sample%20images/sunny_day_demo_7.gif)
-![cloudygif](/sample%20images/cloudy_day_demo_7.gif)
 
 This repo describes the solar forecasting dataset collected at Stanford University. 
 
