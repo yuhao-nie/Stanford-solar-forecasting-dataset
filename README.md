@@ -55,15 +55,18 @@ Videos are captured in a resolution of 1536 × 1536 pixels at 20 frames per seco
 
 The PV output data are collected from solar panel arrays ∼125 m away from the camera, on the top of the Jen-Hsun Huang Engineering Center at Stanford University. The poly-crystalline panels are rated at 30.1 kW-DC, with an elevation and azimuth angle at 22.5° and 195° respectively.
 
-
+  
 ## Demonstration of Use Cases
 
 ### Sun and Clouds Identification
 
 We develop a physics-based non-parametric classifier based on the threshold of the fractional cloudiness in a sky. We utilize a modified NRBR threshold with the background subtraction method to classify input images into different sky conditions as showed in fig. 2.1.
-
-![sunnygif](/sample%20images/sunny_day_demo_1.gif)
-![cloudygif](/sample%20images/cloudy_day_demo_1.gif)
+  
+<div align=center><image src="/sample%20images/sunny_day_demo_1.gif"></div>
+<div align=center><image src="/sample%20images/cloudy_day_demo_1.gif"></div>
+<p align=center>
+Fig. 2.1 Sample Results for Different Sky Conditions 
+</p>
 
 ### Nowcast and Forecast Using SUNSET Model
 
@@ -73,28 +76,28 @@ Images of the sky provide information on current and future cloud coverage, and 
 
 We explore convolutional neural networks (CNN) to correlate PV output to contemporaneous images of the sky (a “now-cast”). We demonstrate that sky images are useful in inferring PV panel output, and CNN is a suitable structure in this application. Parts of the results are showed in fig.2.2 and fig.2.3 for sunny and cloudy days respectively.
 
-![nowcast sunny](https://github.com/yuhao-nie/Stanford-solar-forecasting-dataset/blob/main/sample%20images/sunset_nowcast_sunny_days.gif)
+![nowcast sunny](/sample%20images/sunset_nowcast_sunny_days.gif)
 <p align=center>
-Fig. 2.2 Nowcast in Sunny Days 
+Fig. 2.2 Sample Results for Solar Nowcasting in Sunny Days 
 </p>
 
-![nowcast cloudy](https://github.com/yuhao-nie/Stanford-solar-forecasting-dataset/blob/main/sample%20images/sunset_nowcast_cloudy_days.gif)
+![nowcast cloudy](/sample%20images/sunset_nowcast_cloudy_days.gif)
 <p align=center>
-Fig.2.3 Nowcast in Cloudy Days
+Fig.2.3 Sample Results for Solar Nowcasting in Cloudy Days
 </p>
 
 #### Short-term Solar Power Forecast
 
 We extend the “now-cast” work and proposed a specialized convolutional neural network (CNN) “SUNSET” to predict 15-min ahead minutely-averaged PV output. The model is characterized by its usage of hybrid input, temporal history and strong regularization. Parts of the results are showed in fig.2.4 and fig.2.5 for sunny and cloudy days respectively.
 
-![forecast sunny](https://github.com/yuhao-nie/Stanford-solar-forecasting-dataset/blob/main/sample%20images/sunset_forecast_sunny_days.gif)
+![forecast sunny](/sample%20images/sunset_forecast_sunny_days.gif)
 <p align=center>
-Fig. 2.4 Forecast in Sunny Days
+Fig. 2.4 Sample Results for Solar Forecasting in Sunny Days
 </p>
 
-![forecast cloudy](https://github.com/yuhao-nie/Stanford-solar-forecasting-dataset/blob/main/sample%20images/sunset_forecast_cloudy_days.gif)
+![forecast cloudy](/sample%20images/sunset_forecast_cloudy_days.gif)
 <p align=center>
-Fig. Forecast in Cloudy Days
+Fig. 2.5 Sample Results for Solar Forecasting in Cloudy Days
 </p>
 
 ## Additional Information
