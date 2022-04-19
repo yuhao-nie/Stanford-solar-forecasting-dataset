@@ -1,17 +1,17 @@
 # Stanford Solar Forecasting Dataset
 
-![sunnygif](/sample%20images/sunny_day_demo_1.gif)
-![cloudygif](/sample%20images/cloudy_day_demo_1.gif)
-![sunnygif](/sample%20images/sunny_day_demo_2.gif)
-![cloudygif](/sample%20images/cloudy_day_demo_2.gif)
-![sunnygif](/sample%20images/sunny_day_demo_3.gif)
-![cloudygif](/sample%20images/cloudy_day_demo_3.gif)
-![sunnygif](/sample%20images/sunny_day_demo_4.gif)
-![cloudygif](/sample%20images/cloudy_day_demo_4.gif)
-![sunnygif](/sample%20images/sunny_day_demo_5.gif)
-![cloudygif](/sample%20images/cloudy_day_demo_5.gif)
-![sunnygif](/sample%20images/sunny_day_demo_6.gif)
-![cloudygif](/sample%20images/cloudy_day_demo_6.gif)
+![sunnygif_1](/sample%20images/sunny_day_demo_1.gif)
+![cloudygif_1](/sample%20images/cloudy_day_demo_1.gif)
+![sunnygif_2](/sample%20images/sunny_day_demo_2.gif)
+![cloudygif_2](/sample%20images/cloudy_day_demo_2.gif)
+![sunnygif_3](/sample%20images/sunny_day_demo_3.gif)
+![cloudygif_3](/sample%20images/cloudy_day_demo_3.gif)
+![sunnygif_4](/sample%20images/sunny_day_demo_4.gif)
+![cloudygif_4](/sample%20images/cloudy_day_demo_4.gif)
+![sunnygif_5](/sample%20images/sunny_day_demo_5.gif)
+![cloudygif_5](/sample%20images/cloudy_day_demo_5.gif)
+![sunnygif_6](/sample%20images/sunny_day_demo_6.gif)
+![cloudygif_6](/sample%20images/cloudy_day_demo_6.gif)
 
 This repo describes the solar forecasting dataset collected at Stanford University. 
 
@@ -61,9 +61,19 @@ The PV output data are collected from solar panel arrays ∼125 m away from the 
 ### Sun and Clouds Identification
 
 We develop a physics-based non-parametric classifier based on the threshold of the fractional cloudiness in a sky. We utilize a modified NRBR threshold with the background subtraction method to classify input images into different sky conditions as showed in fig. 2.1.
+
+<div align=center>
+  <image src="/sample%20images/sun_identification_demo_1.gif">
+  <image src="/sample%20images/sun_identification_demo_4.gif">
+  <image src="/sample%20images/sun_identification_demo_6.gif">
+</div> 
   
-<div align=center><image src="/sample%20images/sunny_day_demo_1.gif"></div>
-<div align=center><image src="/sample%20images/cloudy_day_demo_1.gif"></div>
+<div align=center>
+  <image src="/sample%20images/cloud_identification_demo_1.gif">
+  <image src="/sample%20images/cloud_identification_demo_2.gif">
+  <image src="/sample%20images/cloud_identification_demo_6.gif">
+</div> 
+  
 <p align=center>
 Fig. 2.1 Sample Results for Different Sky Conditions 
 </p>
