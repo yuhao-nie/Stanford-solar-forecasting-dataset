@@ -102,15 +102,15 @@ Figure 6: Sample results for sun tracking and clouds detection (red spots in the
 
 So far, we have published the following 5 papers based on the dataset, more research works going on.
 
-1. Solar Nowcasting [[2]](2)
+1. Solar Nowcasting [[2]](#2)
 
-2. Short-term Solar Forecasting [[1]](1)
+2. Short-term Solar Forecasting [[1]](#1)
 
-3. Data Fusion [[4]](4)
+3. Data Fusion [[4]](#4)
 
-4. Sky-condition-specific Sub-models for Solar Forecasting [[3]](3)
+4. Sky-condition-specific Sub-models for Solar Forecasting [[3]](#3)
 
-5. Resampling and Data Augmentation for Solar Forecasting with an Imbalanced Sky Image Dataset [[5]](5)
+5. Resampling and Data Augmentation for Solar Forecasting with an Imbalanced Sky Image Dataset [[5]](#5)
 
 ## Access Instruction
 
