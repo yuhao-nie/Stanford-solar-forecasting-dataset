@@ -21,7 +21,7 @@ Here, we present Stanford solar forecasting dataset (SSFD), a curated dataset co
 
 The dataset consists of two major categories of data: sky images and PV power output, both of which are logged with 1-min frequency. To support the flexibility of research, we also open source the concurrent sky video footage and users can thus tailor their data extraction. The data collection started from 2017 March and has continued through now[^1]. However, we've only open-sourced the data from 2017 March to 2019 October so far, and work to compile the data beyond is going on, so stay tuned!
 
-[^1]: The dataset suffer from some interruptions adue to the water intrusion, wiring and/or electrical failure of the camera as well as daylight-saving adjustment failure in 2017 and 2018, which is back to normal for 2019 and beyond.
+[^1]: The dataset suffer from some interruptions due to the water intrusion, wiring and/or electrical failure of the camera as well as daylight-saving adjustment failure in 2017 and 2018, which is back to normal for 2019 and beyond.
 
 ### Sky Images
 
