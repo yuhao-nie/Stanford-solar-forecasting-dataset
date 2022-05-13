@@ -134,7 +134,7 @@ Some of our ongoing efforts include: (1) continuing the data collection at Stanf
 [^3]: NREL only archives sky images in 10-min frequency and open sources to the public.
 
 ## Acknowledgements
-We thank Stanford Utility for giving us permission to accessing the PV output history and Jacques Chalendar from Stanford Utility who help us access the data.
+We thank Stanford Utility for giving us permission to accessing the PV output history and Jacques Chalendar from Stanford University who help us access the data.
 
 ## References
 <a id="1">[1]</a> 
