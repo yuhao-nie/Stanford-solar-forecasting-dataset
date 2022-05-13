@@ -13,54 +13,74 @@
 ![sunnygif_6](/sample%20images/sunny_day_demo_6.gif)
 ![cloudygif_6](/sample%20images/cloudy_day_demo_6.gif)
 
-This repo describes the solar forecasting dataset collected at Stanford University. 
+Large-scale integration of photovoltaics (PV) into electricity grids is challenged by the intermittent nature of solar power. Sky image-based solar forecasting has been recognized as a promising approach to predicting the short-term fluctuations. 
+
+Here, we present Stanford solar forecasting dataset (SSFD), a curated dataset collected and compiled by the [Environment Assessment and Optimization (EAO) Group](https://eao.stanford.edu/) at Stanford University. We hope that this dataset will facilitate the research of image-based solar forecasting and we also encourage the users to explore on other related areas with this dataset, such as sky image segmentation, cloud type classification and cloud movement forecasting.
 
 ## Dataset Description
 
-This dataset is a collection of sky images and PV power output for solar forecasting from Stanford University. The data consist of three years (2017–2019) of quality-controlled, 1-min resolution in sky images taken from a ground-based fish-eye camera and power output measurement from a 30 kW rooftop PV array ~125 m away from the camera at Stanford Campus. We hope that the dataset will enable researchers to tackle the problem of short-term local ground camera-based solar power prediction.
+The dataset consists of two major categories of data: sky images and PV power output, both of which are logged with 1-min frequency. To support the flexibility of research, we also open source the concurrent sky video footage and users can thus tailor their data extraction. The data collection started from 2017 March and has continued through now[^1]. However, we've only open-sourced the data from 2017 March to 2019 October so far, and work to compile the data beyond is going on, so stay tuned!
 
-- **Homepage:**
-[Environmental Assessment and Optimization (EAO) Group]( https://eao.stanford.edu/short-term-solar-forecasting)
+[^1]: The dataset suffer from some interruptions adue to the water intrusion, wiring and/or electrical failure of the camera as well as daylight-saving adjustment failure in 2017 and 2018, which is back to normal for 2019 and beyond.
 
-- **Repository:**
-[EAO Group](https://github.com/Stanford-EAO);
-[SUNSET Model](https://github.com/YuchiSun/SUNSET)
+### Sky Images
 
-- **Publications:**
-[Solar Nowcast](https://pubs.rsc.org/en/content/articlehtml/2018/ee/c7ee03420b);
-[Solar Forecast](https://www.sciencedirect.com/science/article/pii/S0038092X19306164);
-[Data Fusion for Solar Forecasting](https://aip.scitation.org/doi/full/10.1063/1.5122796);
-[Sky Condition Submodels](https://aip.scitation.org/doi/full/10.1063/5.0014016);
-[Resampling and Data Augmentation](https://www.sciencedirect.com/science/article/pii/S0038092X21004795)
+Video recordings of the daytime sky (6:00 AM ~ 8:00 PM PST) are shot with a 6-megapixel 360-degree fish-eye camera (Hikvision DS-2CD6362F-IV[^2]), which is located on top of the Green Earth Sciences Building at Stanford University and oriented towards 14&deg; south by west. Camera aperture, white balance and dynamic range are held constant. Videos are captured in a resolution of 2048 × 2048 pixels at 20 frames per second (fps) and images (.jpg) are extracted from the video at 1-min sampling frequency. Figure 1 gives examples of sky images in different weather conditions, and shows the camera and PV panels used in this study.
 
-### Dataset Summary
+[^2]: The camera model Hikvision DS-2CD6362F-IV is discontinued and is replaced by a new model Hikvision DS-2CD6365GOE-IVS. We replace the old model with the new model on April 29, 2022 due to aging.
 
-#### Sky Images
+User can extract higher frequency image samples and down-size the samples to a lower resolution based on their needs. For your reference, our previous research work [[1]](#1) shows 1-min frequency and 64 x 64 resolution to be acceptable for PV output forecast, while retaining reasonable training time.
 
-The sky images are frames from a video recorded by a ground-based 6-megapixel 360-degree fish-eye camera (Hikvision model DS-2CD6362F-IV) installed on the roof of the Green Earth Sciences Building (GESB) at Stanford University. Camera aperture, white balance and dynamic range are held constant. Fig.1 gives examples of sky images in different weather conditions, and shows the camera and PV panels used for the dataset. 
-
-<div align=center><image src="https://ars.els-cdn.com/content/image/1-s2.0-S0038092X19306164-gr1.jpg"></div>
+<div align=center><image src="./sample%20images/sky_camera_and_panel_photos.jpg"></div>
   
-<p align=center>
-Fig.1.1. Photos of sky images and research equipment. 
+<p align=justify>
+Figure 1: Photos of sky images and research equipment. 
 (A. Sky image captured on a clear day at 12:51:00, Mar.14.2017. 
 B. Sky image of a cloudy day captured at 10:50:00 Mar.16.2017. 
 C. Fish-eye camera used for sky imaging. 
-D. PV panels used in this study.)
+D. Studied PV panels.
+E. Locations of the camera and studied solar panels)
 </p>
 
-Videos are captured in a resolution of 1536 × 1536 pixels at 20 frames per second (fps). It is compressed with the h.264 standard to a bit rate of 2 Mbps. Images (.jpg) are extracted at a chosen sampling frequency, and down-sampled to a resolution of 64 × 64 pixels, which was previously shown to be acceptable for PV output forecast, while retaining a reasonable training time. Images are retained between the hours of 6:00 AM and 8:00 PM local time (PST).
+### PV Output 
 
-#### PV Output 
+The PV output data are collected from solar panel arrays ∼125 m away from the camera, on the top of the Jen-Hsun Huang Engineering Center at Stanford University. The poly-crystalline panels are rated at 30.1 kW-DC, with an elevation and azimuth angle at 22.5° and 195° respectively. The raw PV output power data are originally logged by Stanford Utility and the miuntely averaged data are shared with us.
 
-The PV output data are collected from solar panel arrays ∼125 m away from the camera, on the top of the Jen-Hsun Huang Engineering Center at Stanford University. The poly-crystalline panels are rated at 30.1 kW-DC, with an elevation and azimuth angle at 22.5° and 195° respectively.
+## Data Processing
+We expect the users of this dataset to process the data based on their own needs, while we provide some reference codes for data processing used in our previous publications in our [SUNSET Model](https://github.com/YuchiSun/SUNSET) GitHub repository. One can refer to the main context and supplementary material of this paper [[1]](#1) for detailed instructions.
 
-  
 ## Demonstration of Use Cases
+Here, we demontrates a few use cases of this dataset based on our published works. Images of the sky provide information on current and future cloud coverage, and are potentially useful in inferring PV generation. Our group has developed a specialized convolutional neural network model named SUNSET (Stanford University Neural Network for Solar Electricity Trend) for PV output forecast.
 
-### Sun and Clouds Identification
+### Solar Power Nowcast
+We explore convolutional neural networks (CNN) to correlate PV output to contemporaneous images of the sky (a “now-cast”). We demonstrate that sky images are useful in inferring PV panel output, and CNN is a suitable structure in this application. Parts of the results are shown in Figure 2 and Figure 3 and you can refer to [[2]](#2) for the detailed work. 
 
-We develop a physics-based non-parametric classifier based on the threshold of the fractional cloudiness in a sky. We utilize a modified NRBR threshold with the background subtraction method to classify input images into different sky conditions as showed in fig. 2.1.
+![nowcast sunny](/sample%20images/sunset_nowcast_sunny_days.gif)
+<p align=center>
+Figure 2: Sample results for solar nowcasting on sunny days 
+</p>
+
+![nowcast cloudy](/sample%20images/sunset_nowcast_cloudy_days.gif)
+<p align=center>
+Figure 3: Sample results for solar nowcasting on cloudy days
+</p>
+
+### Short-term Solar Power Forecast
+We extend the “now-cast” work and proposed a specialized convolutional neural network (CNN) “SUNSET” to predict 15-min ahead minutely-averaged PV output. The model is characterized by its usage of hybrid input, temporal history and strong regularization. Parts of the results are showed in Figure 4 and Figure 5 and you can refer to [[1]](#1) for the detailed work.
+
+![forecast sunny](/sample%20images/sunset_forecast_sunny_days.gif)
+<p align=center>
+Figure 4: Sample results for solar forecasting on sunny days
+</p>
+
+![forecast cloudy](/sample%20images/sunset_forecast_cloudy_days.gif)
+<p align=center>
+Figure 5: Sample results for solar forecasting on cloudy days
+</p>
+
+### Sun Tracking and Clouds Detection
+
+We utlize a camera projection model to correlate the sun position in a sky image with solar azimuth and zenith angle in the real world, and we develop a modified NRBR threshold with the background subtraction method to determine whether a pixel in the sky image is cloud pixel. In Figure 6, we demonstrate the sun tracking and cloud detection algorithms we developed. You can refer to [[3]](#3) for the details.
 
 <div align=center>
   <image src="./sample%20images/sun_identification_demo_1.gif">
@@ -74,45 +94,60 @@ We develop a physics-based non-parametric classifier based on the threshold of t
   <image src="./sample%20images/cloud_identification_demo_6.gif">
 </div> 
   
-<p align=center>
-Fig. 2.1 Sample Results for Different Sky Conditions 
+<p align=justify>
+Figure 6: Sample results for sun tracking and clouds detection (red spots in the 1st row of images represent the sun location, and green shades in the 2nd row of images represent the identified cloud pixels)
 </p>
 
-### Nowcast and Forecast Using SUNSET Model
+## Summary of Relevant Publications
 
-Images of the sky provide information on current and future cloud coverage, and are potentially useful in inferring PV generation. Our group has developed a specialized convolutional neural network model named SUNSET (Stanford University Neural Network for Solar Electricity Trend) for PV output forecast. The following two projects have been published, with more research projects going on.
+So far, we have published the following 5 papers based on the dataset, more research works going on.
 
-#### Solar Power Nowcast
+1. Solar Nowcasting [[2]](2)
 
-We explore convolutional neural networks (CNN) to correlate PV output to contemporaneous images of the sky (a “now-cast”). We demonstrate that sky images are useful in inferring PV panel output, and CNN is a suitable structure in this application. Parts of the results are showed in fig.2.2 and fig.2.3 for sunny and cloudy days respectively.
+2. Short-term Solar Forecasting [[1]](1)
 
-![nowcast sunny](/sample%20images/sunset_nowcast_sunny_days.gif)
-<p align=center>
-Fig. 2.2 Sample Results for Solar Nowcasting in Sunny Days 
-</p>
+3. Data Fusion [[4]](4)
 
-![nowcast cloudy](/sample%20images/sunset_nowcast_cloudy_days.gif)
-<p align=center>
-Fig.2.3 Sample Results for Solar Nowcasting in Cloudy Days
-</p>
+4. Sky-condition-specific Sub-models for Solar Forecasting [[3]](3)
 
-#### Short-term Solar Power Forecast
+5. Resampling and Data Augmentation for Solar Forecasting with an Imbalanced Sky Image Dataset [[5]](5)
 
-We extend the “now-cast” work and proposed a specialized convolutional neural network (CNN) “SUNSET” to predict 15-min ahead minutely-averaged PV output. The model is characterized by its usage of hybrid input, temporal history and strong regularization. Parts of the results are showed in fig.2.4 and fig.2.5 for sunny and cloudy days respectively.
+## Access Instruction
 
-![forecast sunny](/sample%20images/sunset_forecast_sunny_days.gif)
-<p align=center>
-Fig. 2.4 Sample Results for Solar Forecasting in Sunny Days
-</p>
+We are working on generating a permanent URL (PURL) for users to access our dataset without hassle. For now, please send the enquiry directly to Yuhao Nie (ynie@stanford.edu).
 
-![forecast cloudy](/sample%20images/sunset_forecast_cloudy_days.gif)
-<p align=center>
-Fig. 2.5 Sample Results for Solar Forecasting in Cloudy Days
-</p>
+## Citation
+If you find the Stanford Solar Forecasting Dataset useful to your research/work please cite:
 
-## Additional Information
-  
-### Request of access
+```
 
-To request access to the dataset please send a enquiry to Yuhao Nie (ynie@stanford.edu).
+```
 
+## License
+
+
+## Collaboration on the Dataset
+Our utlimate goal is to build a centralized large-scale sky image and PV output/irradiance measurements dataset for solar forecasting, just like ImageNet for computer vision research. This large-scale dataset is expected to include data streams coming from all over the world and cover a wide range of climate conditions, thus calling on a joint effort from the community. If you would like to collaborate on building such a dataset, please reach out directly to the PI Adam Brandt (abrandt@stanford.edu).
+
+Some of our ongoing efforts include: (1) continuing the data collection at Stanford Campus; (2) having a new data stream from Oregon (Stanford North) with the same camera set up; and (3) webscraping 1-min high-res sky images from NREL which are open-sourced but have not been archived by them [^3] (Stanford East). 
+
+[^3]: NREL only archives sky images in 10-min frequency and open sources to the public.
+
+## Acknowledgements
+We thank Stanford Utility for giving us permission to accessing the PV output history and Jacques Chalendar from Stanford Utility who help us access the data.
+
+## References
+<a id="1">[1]</a> 
+Sun, Y., Venugopal, V., Brandt, A.R., 2019. Short-term solar power forecast with deep learning: Exploring optimal input and output configuration. Sol. Energy 188, 730–741.
+
+<a id="2">[2]</a> 
+Sun, Y., Szűcs, G., Brandt, A.R., 2018. Solar PV output prediction from video streams using convolutional neural networks. Energy Environ. Sci. 11, 1811–1818.
+
+<a id="3">[3]</a> 
+Nie, Y., Sun, Y., Chen, Y., Orsini, R., Brandt, A., 2020. PV power output prediction from sky images using convolutional neural network: The comparison of sky-condition-specific sub-models and an end-to-end model. J. Renew. Sustain. Energy 12, 046101.
+
+<a id="4">[4]</a> 
+Venugopal, V., 2019. Search for Optimal CNN Architectures Incorporating Heterogeneous Inputs for Short- term Solar PV Forecasting. Stanford University.
+
+<a id="5">[5]</a> 
+Nie, Y., Zamzam, A.S., Brandt, A., 2021. Resampling and data augmentation for short-term PV output prediction based on an imbalanced sky images dataset using convolutional neural networks. Sol. Energy 224, 341–354.
