@@ -147,7 +147,7 @@ Sun, Y., Szűcs, G., Brandt, A.R., 2018. Solar PV output prediction from video s
 Nie, Y., Sun, Y., Chen, Y., Orsini, R., Brandt, A., 2020. PV power output prediction from sky images using convolutional neural network: The comparison of sky-condition-specific sub-models and an end-to-end model. J. Renew. Sustain. Energy 12, 046101.
 
 <a id="4">[4]</a> 
-Venugopal, V., 2019. Search for Optimal CNN Architectures Incorporating Heterogeneous Inputs for Short- term Solar PV Forecasting. Stanford University.
+Venugopal, V., Sun, Y., Brandt, A.R., 2019. Short-term solar PV forecasting using computer vision: The search for optimal CNN architectures for incorporating sky images and PV generation history. J. Renew. Sustain. Energy 11, 066102.
 
 <a id="5">[5]</a> 
 Nie, Y., Zamzam, A.S., Brandt, A., 2021. Resampling and data augmentation for short-term PV output prediction based on an imbalanced sky images dataset using convolutional neural networks. Sol. Energy 224, 341–354.
