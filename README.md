@@ -100,7 +100,7 @@ Figure 6: Sample results for sun tracking and clouds detection (red spots in the
 
 ## Summary of Relevant Publications
 
-So far, we have published the following 5 papers based on the dataset, more research works going on.
+So far, we have published the following 5 papers based on the dataset, and more research works are going on.
 
 1. Solar Nowcasting [[2]](#2)
 
