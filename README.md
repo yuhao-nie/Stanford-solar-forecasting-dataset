@@ -129,7 +129,7 @@ If you find the Stanford Solar Forecasting Dataset useful to your research/work 
 ## Collaboration on the Dataset
 Our utlimate goal is to build a centralized large-scale sky image and PV output/irradiance measurements dataset for solar forecasting, just like ImageNet for computer vision research. This large-scale dataset is expected to include data streams coming from all over the world and cover a wide range of climate conditions, thus calling on a joint effort from the community. If you would like to collaborate on building such a dataset, please reach out directly to the PI Adam Brandt (abrandt@stanford.edu).
 
-Some of our ongoing efforts include: (1) continuing the data collection at Stanford Campus; (2) having a new data stream from Oregon (Stanford North) with the same camera set up; and (3) webscraping 1-min high-res sky images from NREL which are open-sourced but have not been archived [^3] (Stanford East). 
+Some of our ongoing efforts include: (1) continuing the data collection at Stanford Campus; (2) having a new data stream from Oregon (Stanford North) with the same camera set up; and (3) webscraping 1-min high-res sky images from [NREL Solar Radiation Research Laboratory](https://midcdmz.nrel.gov/apps/sitehome.pl?site=SRRLASI) which are open-sourced but have not been archived [^3] (Stanford East). 
 
 [^3]: NREL only archives sky images in 10-min frequency and open sources to the public.
 
