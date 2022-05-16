@@ -35,8 +35,8 @@ User can extract higher frequency image samples and down-size the samples to a l
   
 <p align=justify>
 Figure 1: Photos of sky images and research equipment. 
-(A. Sky image captured on a clear day at 12:51:00, Mar.14.2017. 
-B. Sky image of a cloudy day captured at 10:50:00 Mar.16.2017. 
+(A. Sky image captured on a clear day at 12:51:00, Mar.14, 2017. 
+B. Sky image of a cloudy day captured at 10:50:00 Mar.16, 2017. 
 C. Fish-eye camera used for sky imaging. 
 D. Studied PV panels.
 E. Locations of the camera and studied solar panels)
@@ -44,7 +44,7 @@ E. Locations of the camera and studied solar panels)
 
 ### PV Output 
 
-The PV output data are collected from solar panel arrays ∼125 m away from the camera, on the top of the Jen-Hsun Huang Engineering Center at Stanford University. The poly-crystalline panels are rated at 30.1 kW-DC, with an elevation and azimuth angle at 22.5° and 195° respectively. The raw PV output power data are originally logged by Stanford Utility and the miuntely averaged data are shared with us[^3].
+The PV output data are collected from solar panel arrays ∼125 m away from the camera, on the top of the Jen-Hsun Huang Engineering Center at Stanford University. The poly-crystalline panels are rated at 30.1 kW-DC, with an elevation and azimuth angle at 22.5° and 195°, respectively. The raw PV output power data are logged with 1-min frequency and representing the average power output within that minute[^3].
 
 [^3]: It should be noted that this is different from the instaneous raw PV data that we used in our previous published works [[1]](#1), [[2]](#2), [[3]](#3) and [[4]](#4), so users do not need to take rolling average during data processing to get the minutely average data.
 
@@ -53,14 +53,14 @@ For flexibility of research, we open source high-resolution, high-frequency raw 
 
 1. Snapshotting the video footage at a designated frequency (`data_preprocess_snapshot_only.ipynb`)
 2. Processing the raw PV output history (`data_preprocess_PV.ipynb`)
-    - Interpolation of PV data to every second (in preparation for matching with some images with irregular time stamps)
+    - Interpolation of PV data to every 10 seconds (in preparation for matching with images with irregular time stamps, e.g., 08:20:40)
     - Filtering out the invalid PV data (missing record>1 hr or PV data<0)
 3. Processing images and matching images with the concurrent PV data (`data_preprocess_nowcast.ipynb`)
     - Down-sizing the image frames
     - Filtering out repeating images caused by the occasional abnormal behavior of OpenCV video capture function  
 4. Generating valid samples for the forecast task and partitioning training, validation and testing sets (`data_preprocess_forecast.ipynb`)
 
-Users can either use the reference codes we provided here or customize their own data processing pipeline. For details, please refer to the main context and supplementary material of this paper [[1]](#1) or the data processing section of this dissertation [[6]](#6). 
+Users can either use the reference codes we provided here or customize their own data processing pipeline. For more details, please refer to the data processing section of this dissertation [[6]](#6). 
 
 ## Demonstration of Use Cases
 Here, we demontrates a few use cases of this dataset based on our published works. Images of the sky provide information on current and future cloud coverage, and are potentially useful in inferring PV generation. Our group has developed a specialized convolutional neural network model named SUNSET (Stanford University Neural Network for Solar Electricity Trend) for PV output forecast. To access the code base, please check out our [SUNSET Model](https://github.com/YuchiSun/SUNSET) GitHub repository.
