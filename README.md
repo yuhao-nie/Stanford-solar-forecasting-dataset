@@ -57,7 +57,7 @@ For flexibility of research, we open source high-resolution, high-frequency raw 
     - Filtering out the invalid PV data (missing record>1 hr or PV data<0)
 3. Processing images and matching images with the concurrent PV data (`data_preprocess_nowcast.ipynb`)
     - Down-sizing the image frames
-    - Filtering out repeating images caused by occasional abnormal behavior of OpenCV video capture function  
+    - Filtering out repeating images caused by the occasional abnormal behavior of OpenCV video capture function  
 4. Generating valid samples for the forecast task and partitioning training, validation and testing sets (`data_preprocess_forecast.ipynb`)
 
 Users can either use the reference codes we provided here or customize their own data processing pipeline. For details, please refer to the main context and supplementary material of this paper [[1]](#1) or the data processing section of this dissertation [[6]](#6). 
