@@ -130,7 +130,7 @@ So far, we have published the following 5 papers based on the dataset, and more 
 We are working on generating a permanent URL (PURL) for users to access our dataset without hassle. For now, please send the enquiry directly to Yuhao Nie (ynie@stanford.edu).
 
 ## Citation
-If you find the Stanford Solar Forecasting Dataset useful to your research/work please cite:
+If you find the Stanford Solar Forecasting Dataset useful to your research/work please cite (release soon):
 
 ```
 
