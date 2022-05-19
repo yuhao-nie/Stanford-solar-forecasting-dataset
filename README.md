@@ -1,4 +1,4 @@
-# Stanford Solar Forecasting Dataset
+# Stanford University Sky Images and PV Output Dataset for Solar Forecasting
 
 ![sunnygif_1](/sample_images/sunny_day_demo_1.gif)
 ![cloudygif_1](/sample_images/cloudy_day_demo_1.gif)
