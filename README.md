@@ -2,6 +2,8 @@
 
 Note: this *README* file is for demonstration purpose, for details on the dataset please refer to our Dataset paper.
 
+---
+
 [**Dataset Paper**]() | [**Benchmark Dataset Repository**]() | [**Raw Dataset Repository**]()
 
 ![sunnygif_1](/sample_images/sunny_day_demo_1.gif)
@@ -23,6 +25,9 @@ Here, we present **SKIPP'D** — a **SK**y **I**mages and **P**hotovoltaic **P**
 
 ## Dataset Update Log
 2022.06 SKIPP'd v1: Release 2017-2019 benchmark and raw dataset collected at Stanford campus.
+
+## Dependencies
+See `requirements.txt`. All the codes are writen in Python 3.6.1. The deep learning models are implemented using deep learning framework TensorFlow 2.4.1 and trained on GPU cluster, with NVIDIA TESLA V100 32GB or A100 40GB card. TensorFlow 2.4.1 is compatible with CUDA 11.2.0 and cuDNN 8.1.1.33.
 
 ## Dataset Description
 
@@ -182,7 +187,7 @@ Some of our ongoing efforts include: (1) continuing the data collection at Stanf
 [^4]: NREL only archives sky images in 10-min frequency and open sources to the public.
 
 ## Acknowledgements
-We thank Stanford Utility for giving us permission to accessing the PV output history and Jacques de Chalendar from Department of Energy Resources Engineering at Stanford University who help us access the data.
+The authors thank Stanford Utility for giving us permission to accessing the PV power generation history and Jacques de Chalendar from Stanford University who help us access the data. The authors would also like to acknowledge the Stanford Research Computing Center for providing the computational resources for conducting the experiments in this study.
 
 ## References
 <a id="1">[1]</a> 
