@@ -1,6 +1,6 @@
 # SKIPP'D — a SKy Images and Photovoltaic Power Generation Dataset for Short-term Solar Forecasting
 
-Note: this *README* file is for demonstration purpose, for details on the dataset please refer to our Dataset paper.
+Note: this *README* file is for demonstration purpose, for details of the dataset please refer to our Dataset paper.
 
 ---
 
