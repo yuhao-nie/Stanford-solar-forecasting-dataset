@@ -1,8 +1,6 @@
-# SKIPP'D — a *SK*y *I*mages and *P*hotovoltaic *P*ower Generation *D*ataset for Short-term Solar Forecasting
+# SKIPP'D — a SKy Images and Photovoltaic Power Generation Dataset for Short-term Solar Forecasting
 
-Note: this GitHub repository is for demonstration purpose, for details on the dataset please refer to our Dataset paper.
-
----
+Note: this *README* file is for demonstration purpose, for details on the dataset please refer to our Dataset paper.
 
 [**Dataset Paper**]() | [**Benchmark Dataset Repository**]() | [**Raw Dataset Repository**]()
 
