@@ -50,12 +50,12 @@ Video recordings of the daytime sky (6:00 AM ~ 8:00 PM PST) are shot with a 6-me
 
 User can extract higher frequency image samples and down-size the samples to a lower resolution based on their needs. For your reference, our previous research work [[1]](#1) shows 1-min frequency and 64 x 64 resolution to be acceptable for PV output forecast, while retaining reasonable training time.
 
-<div align=center><image src="./sample_images/sky_camera_and_panel_photos.jpg"></div>
+<div align=center><image src="./sample_images/sky_camera_and_panel_photos_update.png"></div>
   
 <p align=justify>
 Figure 1: Photos of sky images and research equipment. 
-(A. Sky image captured on a clear day at 12:51:00, Mar.14, 2017. 
-B. Sky image of a cloudy day captured at 10:50:00 Mar.16, 2017. 
+(A. Sky image captured on a clear day at 12:18:20 pm, January 25, 2019. 
+B. Sky image of a cloudy day captured at 12:32:10 pm May 27, 2019. 
 C. Fish-eye camera used for sky imaging. 
 D. Studied PV panels.
 E. Locations of the camera and studied solar panels)
