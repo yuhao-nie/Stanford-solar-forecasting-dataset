@@ -1,0 +1,8 @@
+h5py==2.10.0
+matplotlib==3.3.4
+numpy==1.19.5
+opencv_python==4.5.3.56
+pandas==1.1.5
+scipy==1.5.4
+tensorflow==2.4.1
+jupyter==1.0.0
