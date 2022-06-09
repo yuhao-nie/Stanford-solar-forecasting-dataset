@@ -19,7 +19,7 @@ Note: this *README* file is for demonstration purpose, for details on the datase
 
 Large-scale integration of photovoltaics (PV) into electricity grids is challenged by the intermittent nature of solar power. Sky image-based solar forecasting has been recognized as a promising approach to predicting the short-term fluctuations. 
 
-Here, we present **SKIPP'D** — a **SK**y **I**mages and **P**hotovoltaic **P**ower Generation **D**ataset for short-term solar forecasting, collected and compiled by the [Environment Assessment and Optimization (EAO) Group](https://eao.stanford.edu/) at Stanford University. We hope that this dataset will facilitate the research of image-based solar forecasting using deep learning and contribute to a standardized benchmark for evaluating and comparing different solar forecasting models. We also encourage the users to explore on other related areas with this dataset, such as sky image segmentation, cloud type classification and cloud movement forecasting.
+Here, we present **SKIPP'D** — a **SK**y **I**mages and **P**hotovoltaic **P**ower Generation **D**ataset for short-term solar forecasting, collected and compiled by the [Environmental Assessment and Optimization (EAO) Group](https://eao.stanford.edu/) at Stanford University. We hope that this dataset will facilitate the research of image-based solar forecasting using deep learning and contribute to a standardized benchmark for evaluating and comparing different solar forecasting models. We also encourage the users to explore on other related areas with this dataset, such as sky image segmentation, cloud type classification and cloud movement forecasting.
 
 ## Dataset Update Log
 2022.06 SKIPP'd v1: Release 2017-2019 benchmark and raw dataset collected at Stanford campus.
