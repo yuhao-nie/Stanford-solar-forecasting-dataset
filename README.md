@@ -52,6 +52,17 @@ that suit various research purposes.
 
 In addition, we provide the code base of data processing and baseline model implementation for researchers to fast reproduce our previous work and accelerate solar forecasting research.
 
+The benchmark data is available at `xxxxx` and the raw data is deposit separately by each year given its large size. The 2017 raw data is available at `xxxxx` and the links to 2018 and 2019 data can be found in the "Related items" elsewhere on the same web page. The data files are summarized below.
+
+| File | Type | Description |
+| ------------- | ------------- | ------------- |
+| `2017_2019_images_pv_processed.hdf5` | Benchmark data | A file-directory like structure consisting of two groups: "trainval" and "test", for storing model development set and test set, respectively, with each group containing two datasets: "images\_log" and "pv\_log", which stores the processed images and PV generation data from all three years (2017-2019) in Python NumPy array format. |
+| `times_trainval.npy` | Benchmark data | Python NumPy array of time stamps corresponding to development set in *.hdf5* file. |
+| `times_test.npy ` | Benchmark data | Python NumPy array of time stamps corresponding to test set in *.hdf5* file.  |
+| `{Year}_{Month}_videos.tar` | Raw data | Tar archives with daytime 2048x2048 sky videos (*.mp4*) recorded at 20 frames per second for each month from 2017/03 to 2019/12. |
+| `{Year}_{Month}_images_raw.tar` | Raw data | Tar archives with daytime 2048 $\times$ 2048 sky images (*.jpg*) captured at 1-min intervals for each month from 2017/03 to 2019/12 (around 7 GB of each month). |
+| `{Year}_pv_raw.csv` | Raw data | One-min PV generation data for the year 2017, 2018 and 2019. |
+
 ### Dataset Sources
 Our research group started the data collection from March, 2017 at Stanford University campus, located in the center of the San Francisco Peninsula, in California. According to the Köppen climate classification system, Stanford  has a warm-summer Mediterranean climate, abbreviated Csb (C=temperate climate s=dry summer b=warm summer) on climate maps. In terms of cloud coverage, Stanford is featured by long summers with mostly clear sky and short winters with partly cloudy sky.
 
