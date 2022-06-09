@@ -40,6 +40,8 @@ The dataset contains the following two levels of data which distinguishes it fro
 per second, sky image frames (2048×2048) and history PV power generation data logged in 1-min frequency
 that suit various research purposes. 
 
+In addition, we provide the code base of data processing and baseline model implementation for researchers to fast reproduce our previous work and accelerate solar forecasting research.
+
 ### Dataset Sources
 Our research group started the data collection from March, 2017 at Stanford University campus, located in the center of the San Francisco Peninsula, in California. According to the Köppen climate classification system, Stanford  has a warm-summer Mediterranean climate, abbreviated Csb (C=temperate climate s=dry summer b=warm summer) on climate maps. In terms of cloud coverage, Stanford is featured by long summers with mostly clear sky and short winters with partly cloudy sky.
 
