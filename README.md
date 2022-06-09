@@ -26,8 +26,18 @@ Here, we present **SKIPP'D** — a **SK**y **I**mages and **P**hotovoltaic **P**
 ## Dataset Update Log
 2022.06 SKIPP'd v1: Release 2017-2019 benchmark and raw datasets collected at Stanford campus.
 
-## Dependencies
-See `requirements.txt`. All the codes are writen in Python 3.6.1. The deep learning models are implemented using deep learning framework TensorFlow 2.4.1 and trained on GPU cluster, with NVIDIA TESLA V100 32GB or A100 40GB card. TensorFlow 2.4.1 is compatible with CUDA 11.2.0 and cuDNN 8.1.1.33.
+## Code Base and Dependencies
+All the codes are writen in Python 3.6.1. The deep learning models are implemented using deep learning framework TensorFlow 2.4.1 and trained on GPU cluster, with NVIDIA TESLA V100 32GB or A100 40GB card. TensorFlow 2.4.1 is compatible with CUDA 11.2.0 and cuDNN 8.1.1.33. All dependencies are listed in `requirements.txt`. 
+
+| File | Description |
+| ------------- | ------------- |
+| `data_processing/data_preprocess_snapshot_only.ipynb` | Jupyter Notebook used to capture images from the video stream at designated frequency. |
+| `data_processing/data_preprocess_pv.ipynb` | Jupyter Notebook used to process the raw PV power generation history.  |
+| `data_processing/data_nowcast.ipynb` | Jupyter Notebook used to down-sample the image frames, filter out the invalid frames and match images with the concurrent PV data, and partition model development and testing sets.  |
+| `data_processing/data_forecast.ipynb` | Jupyter Notebook used to generate valid samples for the forecast task. |
+| `models/SUNSET_nowcast.ipynb` | Jupyter Notebook used to create the SUNSET nowcast model to correlate PV output to contemporaneous images of the sky, including model training, validation and testing. |
+| `models/SUNSET_forecast.ipynb` | Jupyter Notebook used to create the SUNSET forecast model to predict 15-min ahead minutely-averaged PV output, including model training, validation and testing. |
+| `models/Relative_op_func.py` | Helper functions for calculating theoretical PV power output under clear sky condition and the clear sky index. |
 
 ## Dataset Description
 
