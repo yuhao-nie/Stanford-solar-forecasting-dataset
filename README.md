@@ -204,7 +204,7 @@ Some of our ongoing efforts include: (1) continuing the data collection at Stanf
 [^4]: NREL only archives sky images in 10-min frequency and open sources to the public.
 
 ## Acknowledgements
-The authors thank Stanford Utility for giving us permission to accessing the PV power generation history and Jacques de Chalendar from Stanford University who help us access the data. The authors would also like to acknowledge the Stanford Research Computing Center for providing the computational resources for conducting the experiments in this study.
+The authors thank Stanford Utility for giving us permission to accessing the PV power generation history and Jacques de Chalendar from Stanford University who help us access the data. The authors would also like to acknowledge the Stanford Research Computing Center for providing the computational resources for conducting the experiments in this study. The authors are also grateful to Amy Hodge from Science and Engineering Resource Group at Stanford Libraries for facilitating the datasets depositing.
 
 ## References
 <a id="1">[1]</a> 
