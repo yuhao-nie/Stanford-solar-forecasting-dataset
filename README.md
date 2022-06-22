@@ -194,13 +194,15 @@ If you find the Stanford Solar Forecasting Dataset useful to your research/work 
 ```
 
 ## License
-This work is licensed under a
+All datasets are licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+
+All code files are licensed under the MIT license.
 
 ## Collaboration on the Dataset
 Our utlimate goal is to build a centralized large-scale sky image and PV output/irradiance measurements dataset for solar forecasting, just like ImageNet for computer vision research. This large-scale dataset is expected to include data streams coming from all over the world and cover a wide range of climate conditions, thus calling on a joint effort from the community. If you would like to collaborate on building such a dataset, please reach out directly to the PI Adam Brandt (abrandt@stanford.edu).
