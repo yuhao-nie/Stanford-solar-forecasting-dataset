@@ -7,7 +7,7 @@ Note: This *README* file is for demonstration purpose. For details of the datase
 
 ---
 
-[**Dataset Paper**]() | [**Benchmark Dataset Repository**]() | [**Raw Dataset Repository**]()
+[**Dataset Paper**]() | [**Benchmark Dataset Repository**](https://purl.stanford.edu/dj417rh1007) | [**Raw Dataset Repository**](https://purl.stanford.edu/sm043zf7254)
 
 ![sunnygif_1](/sample_images/sunny_day_demo_1.gif)
 ![cloudygif_1](/sample_images/cloudy_day_demo_1.gif)
@@ -55,7 +55,7 @@ that suit various research purposes.
 
 In addition, we provide the code base of data processing and baseline model implementation for researchers to fast reproduce our previous work and accelerate solar forecasting research.
 
-The benchmark data is available at `xxxxx` and the raw data is deposit separately by each year given its large size. The 2017 raw data is available at `xxxxx` and the links to 2018 and 2019 data can be found in the "Related items" elsewhere on the same web page. The data files are summarized below.
+The benchmark data is available at https://purl.stanford.edu/dj417rh1007 and the raw data is deposit separately by each year given its large size. The 2017 raw data is available at https://purl.stanford.edu/sm043zf7254 and the links to 2018 and 2019 data can be found in the "Related items" elsewhere on the same web page. The data files are summarized below.
 
 | File | Type | Description |
 | ------------- | ------------- | ------------- |
