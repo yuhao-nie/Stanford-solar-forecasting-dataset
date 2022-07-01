@@ -27,7 +27,7 @@ Large-scale integration of photovoltaics (PV) into electricity grids is challeng
 Here, we present **SKIPP'D** — a **SK**y **I**mages and **P**hotovoltaic **P**ower Generation **D**ataset for short-term solar forecasting, collected and compiled by the [Environmental Assessment and Optimization (EAO) Group](https://eao.stanford.edu/) at Stanford University. We hope that this dataset will facilitate the research of image-based solar forecasting using deep learning and contribute to a standardized benchmark for evaluating and comparing different solar forecasting models. We also encourage the users to explore on other related areas with this dataset, such as sky image segmentation, cloud type classification and cloud movement forecasting.
 
 ## Dataset Update Log
-2022.06 SKIPP'd v1.0: Release 2017-2019 benchmark and raw datasets collected at Stanford campus.
+2022.07.01 SKIPP'd v1.0: Release 2017-2019 benchmark and raw datasets collected at Stanford campus.
 
 ## Code Base and Dependencies
 All the codes are writen in Python 3.6.1. The deep learning models are implemented using deep learning framework TensorFlow 2.4.1 and trained on GPU cluster, with NVIDIA TESLA V100 32GB or A100 40GB card. TensorFlow 2.4.1 is compatible with CUDA 11.2.0 and cuDNN 8.1.1.33. All dependencies are listed in `requirements.txt`. 
