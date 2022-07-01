@@ -7,7 +7,7 @@ Note: This *README* file is for demonstration purpose. For details of the datase
 
 ---
 
-[**Dataset Paper**]() | [**Benchmark Dataset Repository**](https://purl.stanford.edu/dj417rh1007) | [**Raw Dataset Repository**](https://purl.stanford.edu/sm043zf7254)
+[**Dataset Paper**]() | [**Benchmark Data Repository**](https://purl.stanford.edu/dj417rh1007) | [**Raw Data Repository**](https://purl.stanford.edu/sm043zf7254)
 
 ![sunnygif_1](/sample_images/sunny_day_demo_1.gif)
 ![cloudygif_1](/sample_images/cloudy_day_demo_1.gif)
