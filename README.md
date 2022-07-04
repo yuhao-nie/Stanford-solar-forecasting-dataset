@@ -187,10 +187,10 @@ So far, we have published the following 5 papers based on the dataset, and more 
 
 ## Access Instruction
 
-We are working on generating a permanent URL (PURL) for users to access our dataset without hassle. For now, please send the enquiry directly to Yuhao Nie (ynie@stanford.edu).
+SKIPP'D can be accessed by any users without hassle. The benchmark data is available at https://purl.stanford.edu/dj417rh1007 and the raw data is deposit separately by each year given its large size. The 2017 raw data is available at https://purl.stanford.edu/sm043zf7254 and the links to 2018 and 2019 data can be found in the "Related items" elsewhere on the same web page.
 
 ## Citation
-If you find the Stanford Solar Forecasting Dataset useful to your research/work please cite (release soon):
+If you find SKIPP'D useful to your research/work please cite (release soon):
 
 ```
 
