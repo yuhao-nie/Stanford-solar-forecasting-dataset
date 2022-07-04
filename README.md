@@ -7,7 +7,7 @@ Note: This *README* file is for demonstration purpose. For details of the datase
 
 ---
 
-[**Dataset Paper**]() | [**Benchmark Data Repository**](https://purl.stanford.edu/dj417rh1007) | [**Raw Data Repository**](https://purl.stanford.edu/sm043zf7254)
+[**Dataset Paper**]() | [**Benchmark Data**](https://purl.stanford.edu/dj417rh1007) | [**Raw Data**](https://purl.stanford.edu/sm043zf7254)
 
 ![sunnygif_1](/sample_images/sunny_day_demo_1.gif)
 ![cloudygif_1](/sample_images/cloudy_day_demo_1.gif)
@@ -25,6 +25,8 @@ Note: This *README* file is for demonstration purpose. For details of the datase
 Large-scale integration of photovoltaics (PV) into electricity grids is challenged by the intermittent nature of solar power. Sky image-based solar forecasting has been recognized as a promising approach to predicting the short-term fluctuations. 
 
 Here, we present **SKIPP'D** — a **SK**y **I**mages and **P**hotovoltaic **P**ower Generation **D**ataset for short-term solar forecasting, collected and compiled by the [Environmental Assessment and Optimization (EAO) Group](https://eao.stanford.edu/) at Stanford University. We hope that this dataset will facilitate the research of image-based solar forecasting using deep learning and contribute to a standardized benchmark for evaluating and comparing different solar forecasting models. We also encourage the users to explore on other related areas with this dataset, such as sky image segmentation, cloud type classification and cloud movement forecasting.
+
+Any questions regarding the dataset can be directed to Yuhao Nie (ynie@stanford.edu).
 
 ## Dataset Update Log
 2022.07.01 SKIPP'D v1.0: Release 2017-2019 benchmark and raw datasets collected at Stanford campus.
@@ -187,7 +189,7 @@ So far, we have published the following 5 papers based on the dataset, and more 
 
 ## Access Instruction
 
-SKIPP'D can be accessed without hassle. The benchmark data is available at https://purl.stanford.edu/dj417rh1007 and the raw data is deposit separately by each year given its large size. The 2017 raw data is available at https://purl.stanford.edu/sm043zf7254 and the links to 2018 and 2019 data can be found in the "Related items" elsewhere on the same web page. Any questions regarding the dataset can be directed to Yuhao Nie (ynie@stanford.edu).
+SKIPP'D can be accessed without hassle. The benchmark data is available at https://purl.stanford.edu/dj417rh1007 and the raw data is deposit separately by each year given its large size. The 2017 raw data is available at https://purl.stanford.edu/sm043zf7254 and the links to 2018 and 2019 data can be found in the "Related items" elsewhere on the same web page.
 
 ## Citation
 If you find SKIPP'D useful to your research/work please cite (release soon):
