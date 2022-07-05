@@ -33,24 +33,9 @@ Any questions regarding the dataset can be directed to Yuhao Nie (ynie@stanford.
 <summary>
 2022
 </summary>
-<html>
 <head>
-<style>
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-th, td {
-  padding: 8px;
-  text-align: left;
-  border-bottom: 1px solid #DDD;
-}
-
-tr:hover {background-color: #D6EEEE;}
-</style>
 </head>
 <body>
-
 <table>
   <tr>
     <th>Date</th>
@@ -66,7 +51,6 @@ tr:hover {background-color: #D6EEEE;}
   </tr>
 </table>
 </body>
-</html>
 </details>
 
 ## Code Base and Dependencies
