@@ -192,10 +192,16 @@ So far, we have published the following 5 papers based on the dataset, and more 
 SKIPP'D can be accessed without hassle. The benchmark data is available at https://purl.stanford.edu/dj417rh1007 and the raw data is deposit separately by each year given its large size. The 2017 raw data is available at https://purl.stanford.edu/sm043zf7254 and the links to 2018 and 2019 data can be found in the "Related items" elsewhere on the same web page.
 
 ## Citation
-If you find SKIPP'D useful to your research/work please cite (release soon):
+If you find SKIPP'D useful to your research, please cite:
 
 ```
-
+@misc{nie2022skippd,
+  title = {{SKIPP'D: a SKy Images and Photovoltaic Power Generation Dataset for Short-term Solar Forecasting}},
+  author = {Nie, Yuhao and Li, Xiatong and Scott, Andea and Sun, Yuchi and Venugopal, Vignesh and Brandt, Adam},
+  year = {2022},
+  publisher = {arXiv},
+  doi = {10.48550/ARXIV.2207.00913},
+}
 ```
 
 ## Collaboration on the Dataset
