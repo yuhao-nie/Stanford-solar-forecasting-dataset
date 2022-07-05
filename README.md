@@ -33,6 +33,7 @@ Any questions regarding the dataset can be directed to Yuhao Nie (ynie@stanford.
 <summary>
 2022
 </summary>
+<html>
 <head>
 <style>
 table {
@@ -65,6 +66,7 @@ tr:hover {background-color: #D6EEEE;}
   </tr>
 </table>
 </body>
+</html>
 </details>
 
 ## Code Base and Dependencies
