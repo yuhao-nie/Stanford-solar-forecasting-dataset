@@ -33,8 +33,38 @@ Any questions regarding the dataset can be directed to Yuhao Nie (ynie@stanford.
 <summary>
 2022
 </summary>
-2022.07.01  SKIPP'D v1.0 is released, including 2017-2019 benchmark and raw datasets collected at Stanford campus.
-2022.07.05  Dataset paper v1.0 is released on arXiv.
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+}
+
+tr:hover {background-color: #D6EEEE;}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Updates</th>
+  </tr>
+  <tr>
+    <td>2022.07.01</td>
+    <td>SKIPP'D v1.0 is released, including 2017-2019 benchmark and raw datasets collected at Stanford campus</td>
+  </tr>
+  <tr>
+    <td>2022.07.05</td>
+    <td>Dataset paper v1.0 is released on arXiv</td>
+  </tr>
+</table>
+</body>
 </details>
 
 ## Code Base and Dependencies
