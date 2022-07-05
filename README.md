@@ -28,7 +28,7 @@ Here, we present **SKIPP'D** — a **SK**y **I**mages and **P**hotovoltaic **P**
 
 Any questions regarding the dataset can be directed to Yuhao Nie (ynie@stanford.edu).
 
-## Update Log
+## Updates Log
 2022.07.01 &emsp; SKIPP'D v1.0 releases, including 2017-2019 benchmark and raw datas collected at Stanford campus.  
 2022.07.05 &emsp; Dataset paper v1.0 is available on arXiv.
 
