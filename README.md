@@ -196,7 +196,7 @@ SKIPP'D can be accessed without hassle. The benchmark data is available at https
 If you find SKIPP'D useful to your research, please cite:
 
 ```
-@misc{nie2022skippd,
+@article{nie2022skippd,
   title = {{SKIPP'D: a SKy Images and Photovoltaic Power Generation Dataset for Short-term Solar Forecasting}},
   author = {Nie, Yuhao and Li, Xiatong and Scott, Andea and Sun, Yuchi and Venugopal, Vignesh and Brandt, Adam},
   year = {2022},
