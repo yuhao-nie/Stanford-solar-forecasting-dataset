@@ -30,7 +30,9 @@ Any questions regarding the dataset can be directed to Yuhao Nie (ynie@stanford.
 
 ## Updates Log
 2022.07.01 &emsp; SKIPP'D v1.0 releases, including 2017-2019 benchmark and raw data collected at Stanford campus.  
-2022.07.05 &emsp; Dataset paper v1.0 is available on arXiv.
+2022.07.05 &emsp; Dataset paper is available on [arXiv](https://arxiv.org/abs/2207.00913).  
+2022.11.03 &emsp; Transfer learning paper based on SKIPP'D and other two datasets is available on [arXiv](https://arxiv.org/abs/2211.02108).  
+2022.11.27 &emsp; Survey paper on open-source ground-based sky image datasets is available on [arXiv](https://arxiv.org/abs/2211.14709).
 
 ## Code Base and Dependencies
 All the codes are writen in Python 3.6.1. The deep learning models are implemented using deep learning framework TensorFlow 2.4.1 and trained on GPU cluster, with NVIDIA TESLA V100 32GB or A100 40GB card. TensorFlow 2.4.1 is compatible with CUDA 11.2.0 and cuDNN 8.1.1.33. All dependencies are listed in `requirements.txt`. 
@@ -176,7 +178,7 @@ Figure 7: Sample results for sun tracking and clouds detection (red spots in the
 
 ## Summary of Relevant Publications
 
-So far, we have published the following 5 papers based on the dataset, and more research works are going on.
+So far, we have published the following 7 papers based on the dataset, and more research works are going on.
 
 1. Solar Nowcasting [[2]](#2)
 
@@ -187,6 +189,10 @@ So far, we have published the following 5 papers based on the dataset, and more 
 4. Sky-condition-specific Sub-models for Solar Forecasting [[3]](#3)
 
 5. Resampling and Data Augmentation for Solar Forecasting with an Imbalanced Sky Image Dataset [[5]](#5)
+
+6. Dataset Fusion and Transfer Learning for Solar forecasting Based on Multi-location Data [[7]](#7) 
+
+7. Survery of Open-source Ground-based Sky Image Datasets [[8]](#8)
 
 ## Access Instruction
 
@@ -235,3 +241,9 @@ Nie, Y., Zamzam, A.S., Brandt, A., 2021. Resampling and data augmentation for sh
 
 <a id="6">[6]</a> 
 Sun, Y., 2019. Short-term Solar Forecast Using Convolutional Neural Networks with Sky Images. Stanford University.
+
+<a id="7">[7]</a> 
+Nie, Yuhao, et al. "Sky-image-based solar forecasting using deep learning with multi-location data: training models locally, globally or via transfer learning?." arXiv preprint arXiv:2211.02108 (2022).
+
+<a id="8">[8]</a> 
+Nie, Yuhao, et al. "Open-Source Ground-based Sky Image Datasets for Very Short-term Solar Forecasting, Cloud Analysis and Modeling: A Comprehensive Survey." arXiv preprint arXiv:2211.14709 (2022).
