@@ -178,11 +178,11 @@ Figure 7: Sample results for sun tracking and clouds detection (red spots in the
 
 ## Summary of Relevant Publications
 
-So far, we have published the following 7 papers based on the dataset, and more research works are going on.
+So far, we have published the following 8 papers (including journal/conference articles and pre-prints) based on the dataset, and more research works are going on.
 
 1. Solar Nowcasting [[2]](#2)
 
-2. Short-term Solar Forecasting [[1]](#1)
+2. Short-term Solar Forecasting [[1](#1), [9](#9)]
 
 3. Data Fusion [[4]](#4)
 
@@ -247,3 +247,7 @@ Nie, Yuhao, et al. "Sky-image-based solar forecasting using deep learning with m
 
 <a id="8">[8]</a> 
 Nie, Yuhao, et al. "Open-Source Ground-based Sky Image Datasets for Very Short-term Solar Forecasting, Cloud Analysis and Modeling: A Comprehensive Survey." arXiv preprint arXiv:2211.14709 (2022).
+
+
+<a id="9">[9]</a> 
+Sun, Yuchi, Vignesh Venugopal, and Adam R. Brandt. "Convolutional neural network for short-term solar panel output prediction." 2018 IEEE 7th World Conference on Photovoltaic Energy Conversion (WCPEC)(A Joint Conference of 45th IEEE PVSC, 28th PVSEC & 34th EU PVSEC). IEEE, 2018.
