@@ -29,9 +29,9 @@ Here, we present **SKIPP'D** — a **SK**y **I**mages and **P**hotovoltaic **P**
 Any questions regarding the dataset can be directed to Yuhao Nie (ynie@stanford.edu).
 
 ## Updates Log
-2022.11.27 &emsp; Survey paper on open-source ground-based sky image datasets is available on [arXiv](https://arxiv.org/abs/2211.14709).
-2022.11.03 &emsp; Transfer learning paper based on SKIPP'D and other two datasets is available on [arXiv](https://arxiv.org/abs/2211.02108).
-2022.07.05 &emsp; Dataset paper is available on [arXiv](https://arxiv.org/abs/2207.00913).
+2022.11.27 &emsp; Survey paper on open-source ground-based sky image datasets is available on [arXiv](https://arxiv.org/abs/2211.14709).  
+2022.11.03 &emsp; Transfer learning paper based on SKIPP'D and other two datasets is available on [arXiv](https://arxiv.org/abs/2211.02108).  
+2022.07.05 &emsp; Dataset paper is available on [arXiv](https://arxiv.org/abs/2207.00913).  
 2022.07.01 &emsp; SKIPP'D v1.0 releases, including 2017-2019 benchmark and raw data collected at Stanford campus.
 
 ## Code Base and Dependencies
