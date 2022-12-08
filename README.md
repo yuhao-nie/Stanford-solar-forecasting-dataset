@@ -190,7 +190,7 @@ So far, we have published the following 8 papers (including journal/conference a
 
 5. Resampling and Data Augmentation for Solar Forecasting with an Imbalanced Sky Image Dataset [[5]](#5)
 
-6. Dataset Fusion and Transfer Learning for Solar forecasting Based on Multi-location Data [[7]](#7) 
+6. Transfer Learning for Solar forecasting Based on Multi-location Data [[7]](#7) 
 
 7. Survery of Open-source Ground-based Sky Image Datasets [[8]](#8)
 
