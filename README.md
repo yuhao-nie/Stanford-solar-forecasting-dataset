@@ -7,7 +7,7 @@ Note: This *README* file is for demonstration purpose. For details of the datase
 
 ---
 
-[**Dataset Paper**](https://arxiv.org/abs/2207.00913) | [**Benchmark Dataset**](https://purl.stanford.edu/dj417rh1007) | [**Raw Dataset**](https://purl.stanford.edu/sm043zf7254)
+[**Dataset Paper**](https://doi.org/10.1016/j.solener.2023.03.043) | [**Benchmark Dataset**](https://purl.stanford.edu/dj417rh1007) | [**Raw Dataset**](https://purl.stanford.edu/sm043zf7254)
 
 ![sunnygif_1](/sample_images/sunny_day_demo_1.gif)
 ![cloudygif_1](/sample_images/cloudy_day_demo_1.gif)
