@@ -29,7 +29,7 @@ Here, we present **SKIPP'D** — a **SK**y **I**mages and **P**hotovoltaic **P**
 Any questions regarding the dataset can be directed to Yuhao Nie (ynie@stanford.edu).
 
 ## Updates Log
-2023.06.20 &emsp; **SkyGPT** paper on stochastic sky video prediction for probabilistic solar forecasting is available on [arXiv](https://arxiv.org/abs/2306.11682).
+2023.06.20 &emsp; *SkyGPT* paper on stochastic sky video prediction for probabilistic solar forecasting is available on [arXiv](https://arxiv.org/abs/2306.11682).  
 2023.03.21 &emsp; SKIPP'D dataset paper is accepted by [Solar Energy](https://doi.org/10.1016/j.solener.2023.03.043).
 
 <details>
