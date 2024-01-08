@@ -29,6 +29,7 @@ Here, we present **SKIPP'D** — a **SK**y **I**mages and **P**hotovoltaic **P**
 Any questions regarding the dataset can be directed to Yuhao Nie (ynie@stanford.edu).
 
 ## Updates Log
+2024.01.08 &emsp; The codes for the cloud detection algorithm in the [sky-condition-specific submodel paper](https://doi.org/10.1063/5.0014016) is now open sourced and can be accessed in this [GitHub Repo](https://github.com/yuhao-nie/Cloud-dection-in-sky-images).  
 2023.06.20 &emsp; *SkyGPT* paper on stochastic sky video prediction for probabilistic solar forecasting is available on [arXiv](https://arxiv.org/abs/2306.11682).  
 2023.03.21 &emsp; SKIPP'D dataset paper is accepted by [Solar Energy](https://doi.org/10.1016/j.solener.2023.03.043).
 
@@ -166,7 +167,7 @@ Figure 6: Sample results for solar forecasting on cloudy days
 
 ### Sun Tracking and Clouds Detection
 
-We utlize a camera projection model to correlate the sun position in a sky image with solar azimuth and zenith angle in the real world, and we develop a modified NRBR threshold with the background subtraction method to determine whether a pixel in the sky image is cloud pixel. In Figure 7, we demonstrate the sun tracking and cloud detection algorithms we developed. You can refer to [[3]](#3) for the details.
+We utlize a camera projection model to correlate the sun position in a sky image with solar azimuth and zenith angle in the real world, and we develop a modified NRBR threshold with the background subtraction method to determine whether a pixel in the sky image is cloud pixel. In Figure 7, we demonstrate the sun tracking and cloud detection algorithms we developed. You can refer to [[3]](#3) for more details. The codes are open sourced and can be accessed in this [GitHub Repo](https://github.com/yuhao-nie/Cloud-dection-in-sky-images).
 
 <div align=center>
   <image src="./sample_images/sun_identification_demo_1.gif">
@@ -209,15 +210,18 @@ SKIPP'D can be accessed without hassle. The benchmark data is available at https
 ## Citation
 If you find SKIPP'D useful to your research, please cite:
 ```
-Nie, Y., Li, X., Scott, A., Sun, Y., Venugopal, V., & Brandt, A. (2022). SKIPP'D: a SKy Images and Photovoltaic Power Generation Dataset for Short-term Solar Forecasting. arXiv preprint arXiv:2207.00913.
+Nie, Y., Li, X., Scott, A., Sun, Y., Venugopal, V., & Brandt, A. (2023). SKIPP’D: A SKy Images and Photovoltaic Power Generation Dataset for short-term solar forecasting. Solar Energy, 255, 171-179.
 ```
 or
 ```
-@article{nie2022skippd,
-  title = {{SKIPP'D: a SKy Images and Photovoltaic Power Generation Dataset for Short-term Solar Forecasting}},
-  author = {Nie, Yuhao and Li, Xiatong and Scott, Andea and Sun, Yuchi and Venugopal, Vignesh and Brandt, Adam},
-  journal = {arXiv preprint arXiv:2207.00913}
-  year = {2022},
+@article{nie2023skipp,
+  title={SKIPP’D: A SKy Images and Photovoltaic Power Generation Dataset for short-term solar forecasting},
+  author={Nie, Yuhao and Li, Xiatong and Scott, Andea and Sun, Yuchi and Venugopal, Vignesh and Brandt, Adam},
+  journal={Solar Energy},
+  volume={255},
+  pages={171--179},
+  year={2023},
+  publisher={Elsevier}
 }
 ```
 
