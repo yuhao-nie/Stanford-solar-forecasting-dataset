@@ -31,8 +31,14 @@ Any questions regarding the dataset can be directed to Yuhao Nie (ynie@stanford.
 ## Updates Log
 2024.01.21 &emsp; The codes for *SkyGPT* (Generative AI for future sky image synthesis and probabilistic solar forecasting) are open sourced and available in [GitHub](https://github.com/yuhao-nie/SkyGPT).  
 2024.01.08 &emsp; The codes for the cloud detection algorithm in the [sky-condition-specific submodel paper](https://doi.org/10.1063/5.0014016) is now open sourced and can be accessed in this [GitHub Repo](https://github.com/yuhao-nie/Cloud-dection-in-sky-images).  
+
+<details>
+<summary>2023</summary><p>
+  
 2023.06.20 &emsp; *SkyGPT* paper on stochastic sky video prediction for probabilistic solar forecasting is available on [arXiv](https://arxiv.org/abs/2306.11682).  
 2023.03.21 &emsp; SKIPP'D dataset paper is accepted by [Solar Energy](https://doi.org/10.1016/j.solener.2023.03.043).
+
+</p></details>
 
 <details>
 <summary>2022</summary><p>
