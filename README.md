@@ -29,6 +29,7 @@ Here, we present **SKIPP'D** — a **SK**y **I**mages and **P**hotovoltaic **P**
 Any questions regarding the dataset can be directed to Yuhao Nie (ynie@stanford.edu).
 
 ## Updates Log
+2024.01.21 &emsp; The codes for *SkyGPT* (Generative AI for future sky image synthesis and probabilistic solar forecasting) are open sourced and available in [GitHub](https://github.com/yuhao-nie/SkyGPT).
 2024.01.08 &emsp; The codes for the cloud detection algorithm in the [sky-condition-specific submodel paper](https://doi.org/10.1063/5.0014016) is now open sourced and can be accessed in this [GitHub Repo](https://github.com/yuhao-nie/Cloud-dection-in-sky-images).  
 2023.06.20 &emsp; *SkyGPT* paper on stochastic sky video prediction for probabilistic solar forecasting is available on [arXiv](https://arxiv.org/abs/2306.11682).  
 2023.03.21 &emsp; SKIPP'D dataset paper is accepted by [Solar Energy](https://doi.org/10.1016/j.solener.2023.03.043).
@@ -203,6 +204,8 @@ So far, we have published the following 8 papers (including journal/conference a
 
 7. Survery of Open-source Ground-based Sky Image Datasets [[8]](#8)
 
+8. Generative AI for future sky image synthesis and probabilistic solar forecasting [[10]](#10)
+
 ## Access Instruction
 
 SKIPP'D can be accessed without hassle. The benchmark data is available at https://purl.stanford.edu/dj417rh1007 and the raw data is deposit separately by each year given its large size. The 2017 raw data is available at https://purl.stanford.edu/sm043zf7254 and the links to 2018 and 2019 data can be found in the "Related items" elsewhere on the same web page.
@@ -263,3 +266,6 @@ Nie, Yuhao, et al. "Open-Source Ground-based Sky Image Datasets for Very Short-t
 
 <a id="9">[9]</a> 
 Sun, Yuchi, Vignesh Venugopal, and Adam R. Brandt. "Convolutional neural network for short-term solar panel output prediction." 2018 IEEE 7th World Conference on Photovoltaic Energy Conversion (WCPEC)(A Joint Conference of 45th IEEE PVSC, 28th PVSEC & 34th EU PVSEC). IEEE, 2018.
+
+<a id="10">[10]</a> 
+Nie, Yuhao, Eric Zelikman, Andea Scott, Quentin Paletta, and Adam Brandt. "SkyGPT: Probabilistic Short-term Solar Forecasting Using Synthetic Sky Videos from Physics-constrained VideoGPT." arXiv preprint arXiv:2306.11682 (2023).
