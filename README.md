@@ -29,7 +29,7 @@ Here, we present **SKIPP'D** — a **SK**y **I**mages and **P**hotovoltaic **P**
 Any questions regarding the dataset can be directed to Yuhao Nie (ynie@stanford.edu).
 
 ## Updates Log
-2026.10.03 &emsp; We launch [SolarBench](https://solarbench.github.io), a global benchmark for solar energy nowcasting. The full database will be released soon—stay tuned! Feel free to contact us if you are interested in early access.    
+2026.10.03 &emsp; We launch [SolarBench](https://solarbench.github.io), a global benchmark for solar energy nowcasting. You can access SKIPP'D from there. The full database will be released soon—stay tuned! Feel free to contact us if you are interested in early access.    
 
 <details>
 <summary>2024</summary><p>
