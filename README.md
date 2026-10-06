@@ -29,9 +29,16 @@ Here, we present **SKIPP'D** — a **SK**y **I**mages and **P**hotovoltaic **P**
 Any questions regarding the dataset can be directed to Yuhao Nie (ynie@stanford.edu).
 
 ## Updates Log
+2026.10.03 &emsp; We launch [SolarBench](https://solarbench.github.io), a global benchmark for solar energy nowcasting. The full database will be released soon—stay tuned!   
+
+<details>
+<summary>2024</summary><p>
+  
 2024.09.26 &emsp; SKIPP'D (benchmark) is upon [Hugging Face](https://huggingface.co/datasets/skyimagenet/SKIPPD) 🤗 now! It is much more convenient for you to access it with the HF [`Datasets`](https://github.com/huggingface/datasets) library.    
 2024.01.21 &emsp; The codes for *SkyGPT* (Generative AI for future sky image synthesis and probabilistic solar forecasting) are open sourced and available in [GitHub](https://github.com/yuhao-nie/SkyGPT).  
 2024.01.08 &emsp; The codes for the cloud detection algorithm in the [sky-condition-specific submodel paper](https://doi.org/10.1063/5.0014016) is now open sourced and can be accessed in this [GitHub Repo](https://github.com/yuhao-nie/Cloud-dection-in-sky-images).  
+
+</p></details>
 
 <details>
 <summary>2023</summary><p>
